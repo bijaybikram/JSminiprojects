@@ -1,0 +1,34 @@
+body {
+    background-image: url(bg1.jpg);
+}
+
+.wrapper {
+    position: absolute;
+    top: 45%;
+    left: 40%;
+    display: inline-block;
+    
+}
+
+#digi_clk {
+    color: rgb(150, 187, 219);
+    font-size: 50px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.glow {
+    text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+    0% {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #2507ad, 0 0 40px #2d048b, 0 0 50px #25088f, 0 0 60px #1a0772, 0 0 70px #2f345f;
+    }
+    100% {
+      text-shadow: 0 0 20px #fff, 0 0 30px #fa46a0, 0 0 40px #ff4da6, 0 0 50px #d32b7f, 0 0 60px #b0df06, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
+  
