@@ -1,0 +1,44 @@
+body {
+    background-image: url(background.jpg);
+}
+ button {
+    width: 100px;
+    height: 30px;
+    border: 3px soldi white;
+    border-radius: 50px;
+    background: #5099ec;
+    display: inline-block;
+    color: rgb(5, 5, 12);
+    cursor: pointer;
+    transition-duration: 0.2s;
+    outline: none;
+
+ }
+
+#btn:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#stopwatch {
+    font-size: 50px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-55%);
+    
+}
+
+#buttons {
+    font-size: 50px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-55%,-44%);
+    
+}
+
+#buttons li {
+    display: inline;
+    padding-left: 10% ;
+}
